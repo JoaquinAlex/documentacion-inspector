@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Manual Web Inspector',
+  tagline: 'Aprendé a usar herramientas de desarrollo como un pro',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -62,9 +62,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Manual Web Inspector',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo del Manual',
           src: 'img/logo.svg',
         },
         items: [
@@ -72,11 +72,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Inicio',
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/JoaquinAlex/documentacion-inspector',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,7 +90,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/inspector-web/abrir-inspector',
               },
             ],
           },
@@ -98,16 +98,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://discordapp.com/users/J.Alexprix#9392',
               },
             ],
           },
@@ -117,7 +109,7 @@ const config = {
               //{label: 'Blog',to: '/blog',},
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/JoaquinAlex/documentacion-inspector',
               },
             ],
           },

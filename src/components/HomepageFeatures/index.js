@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Aprende a Usar el Inspector',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Conoce cómo utilizar el inspector de elementos del navegador para analizar HTML, CSS y comportamiento de tus aplicaciones web.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Analiza y Depura Código',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Descubre cómo depurar errores, editar estilos en tiempo real y entender la estructura de una página desde el navegador.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Optimiza tu Desarrollo',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        El inspector de elementos es una herramienta clave para desarrolladores front-end. Mejora tu flujo de trabajo y desarrolla con confianza.
       </>
     ),
   },
