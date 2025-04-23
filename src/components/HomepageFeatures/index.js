@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Aprende a Usar el Inspector',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/lupa.svg').default,
     description: (
       <>
         Conoce cómo utilizar el inspector de elementos del navegador para analizar HTML, CSS y comportamiento de tus aplicaciones web.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Analiza y Depura Código',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/depuracion.svg').default,
     description: (
       <>
         Descubre cómo depurar errores, editar estilos en tiempo real y entender la estructura de una página desde el navegador.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Optimiza tu Desarrollo',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/optimiza.svg').default,
     description: (
       <>
         El inspector de elementos es una herramienta clave para desarrolladores front-end. Mejora tu flujo de trabajo y desarrolla con confianza.
