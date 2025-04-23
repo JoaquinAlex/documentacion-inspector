@@ -5,26 +5,76 @@
  */
 
 /* You can override the default Infima variables here. */
+/* ----------- Variables Globales ----------- */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1e88e5; /* Azul moderno */
+  --ifm-color-primary-dark: #1565c0;
+  --ifm-color-primary-darker: #0d47a1;
+  --ifm-color-primary-darkest: #0a357a;
+  --ifm-color-primary-light: #42a5f5;
+  --ifm-color-primary-lighter: #64b5f6;
+  --ifm-color-primary-lightest: #bbdefb;
+
+  --ifm-font-family-base: 'Poppins', sans-serif;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(30, 136, 229, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* ----------- Dark Mode ----------- */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #90caf9;
+  --ifm-color-primary-dark: #64b5f6;
+  --ifm-color-primary-darker: #42a5f5;
+  --ifm-color-primary-darkest: #2196f3;
+  --ifm-color-primary-light: #bbdefb;
+  --ifm-color-primary-lighter: #e3f2fd;
+  --ifm-color-primary-lightest: #f0f7ff;
+  --docusaurus-highlighted-code-line-bg: rgba(144, 202, 249, 0.2);
+}
+
+/* ----------- Navbar ----------- */
+.navbar {
+  background-color: #0a357a;
+}
+
+.navbar__title, .navbar__link {
+  color: #fff !important;
+}
+
+.navbar__logo img {
+  border-radius: 8px;
+  height: 40px;
+}
+
+/* ----------- Footer ----------- */
+.footer {
+  background-color: #0a357a;
+  color: #fff;
+}
+
+.footer a {
+  color: #bbdefb;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+/* ----------- Tipografía y estilos generales ----------- */
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+code {
+  background-color: #f4f4f4;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* ----------- Personalizaciones extra ----------- */
+.alert--info {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  border-left: 4px solid #2196f3;
 }
