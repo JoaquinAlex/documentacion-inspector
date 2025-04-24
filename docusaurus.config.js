@@ -12,13 +12,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Manual Web Inspector',
   tagline: 'Aprendé a usar herramientas de desarrollo como un pro',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icons.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://942015747.senati.chat.pe',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docusaurus/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/JoaquinAlex/documentacion-inspector/edit/main/'
         },
         blog: false,
         theme: {
